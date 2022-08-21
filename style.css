@@ -1,0 +1,15 @@
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   color: white !important; 
+ }
+ .table-striped>thead>tr:nth-child(odd)>td, 
+.table-striped>thead>tr:nth-child(odd)>th {
+   color: white !important; 
+ }
+
+
+ .table{
+    color:white;
+ }
+
+
