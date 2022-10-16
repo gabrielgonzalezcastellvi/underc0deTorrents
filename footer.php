@@ -24,7 +24,7 @@
           <?php 
             require 'conexion.php';
             $Query = "SELECT * FROM torrent";
-            $Result = mysqli_query($conexion,$Query);
+            $Result = $conexion->query($Query);
             while($row = $Result->fetch_assoc()){
             ?>
             <tr>
